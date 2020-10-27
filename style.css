@@ -1,1 +1,24 @@
+#title{
+  background-color: grey;
+  text-align: center;
+  }
+h2, h3{
+  text-align: center;
+}
+#img-div{
+  text-align: center;
+  width: 100%;  
+ }
+img{
+  padding-right: 75px;
+  height:auto;
+  max-width: 170px;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+}
+#img-caption{
+  display:block;
+  margin: 15px 25px 5px 25px;
+}
 
