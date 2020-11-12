@@ -1,0 +1,19 @@
+
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-inf{
+    padding-bottom: 5px;
+}
+label{
+    display: flex;
+    align-items: center;
+}

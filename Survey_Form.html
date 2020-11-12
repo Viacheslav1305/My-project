@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css.css">
+    </head>
+    <body>
+        <header>
+        <h1 id="title">My Survey Form</h1>
+        <p id="description">This is survey form for Responsive Web Design Projects</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-inf">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" name="name" id="name" class="form-field" placeholder="Enter your name" required>
+            </div>
+            <div class="form-inf">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-field" placeholder="Enter your email" required>
+            </div>
+            <div class="form-inf">
+                <label id="number-label" for="number">Age</label>
+                <input type="number" name="age" id="number" min="10" max="30" class="form-field" placeholder="Age">
+            </div>
+            <div class="form-inf">
+                <p>Choose one nuber of this list</p>
+                <select name="number-list" id="dropdown" class="form-field" required>
+                   <option value="1">1</option>
+                   <option value="2">2</option>
+                   <option value="3">3</option>
+                   <option value="4">4</option>
+                   <option value="5">5</option>
+                   <option value="other">Other</option> 
+                </select>
+            </div>
+            <div class="form-inf">
+                <p>Is the weather good today?</p>
+                <label>
+                <input name="weather-btn" type="radio" class="input-radio" value="yes">
+                Yes
+                </label>
+                <label>
+                    <input name="weather-btn" type="radio" class="input-radio" value="no">
+                    No
+                </label>
+                <label>
+                    <input name="weather-btn" type="radio" class="input-radio" value="maybe">
+                    Maybe
+                </label>
+            </div>
+            <div class="form-inf">
+                <p>Choose one or several numbers</p>
+                <label>
+                    <input name="numbers" type="checkbox" class="checkbox-btn" value="1">
+                    1
+                </label>
+                <label>
+                    <input name="numbers" type="checkbox" class="checkbox-btn" value="2">
+                    2
+                </label>
+                <label>
+                    <input name="numbers" type="checkbox" class="checkbox-btn" value="3">
+                    3
+                </label>
+                <label>
+                    <input name="numbers" type="checkbox" class="checkbox-btn" value="4">
+                    4
+                </label>
+                <label>
+                    <input name="numbers" type="checkbox" class="checkbox-btn" value="5">
+                    5
+                </label>
+            </div>
+            <div class="form-inf">
+                <p>Write some comments</p>
+                <textarea name="comments" id="comments" class="textarea-input" placeholder="Write some text here..."></textarea>
+            </div>
+            <div class="form-inf">
+                <button type="submit" id="submit" class="submit-btn">SUBMIT</button>
+            </div>
+        </form>
+    </body>
+</html>
